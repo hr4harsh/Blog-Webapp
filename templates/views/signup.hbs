@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Sign UP</title>
+    
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../public/css/style.css" >
+</head>
+
+<body class="text-center" style="height: 100%; display: flex;align-items: center;padding-top: 40px;padding-bottom: 40px;background-color: #e6e3de; " background="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bG9naW58fHx8fHwxNjMwNjE1MzQz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600">
+
+    <main class="form-signin border border-white rounded" style="max-width: 330px; margin: auto;padding: 15px;">
+        <form action="/signup" method="POST">
+            <i class="fas fa-blog fa-5x"></i>
+
+            <h1 class="h3 mb-3 fw-normal text-white">Heavy Blogger</h1>
+            <hr>
+            <h2 class="h4 mb-2 fw-normal">Register a New Account</h2>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Name" name="fname">
+                <label for="floatingInput">Name</label>
+            </div>
+            <br>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingUsername" placeholder="USername" name="username">
+                <label for="floatingUsername">UserName</label>
+            </div>
+            <br>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" name="email">
+                <label for="floatingEmail">Email address</label>
+            </div>
+            <br>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <br>
+            
+
+            
+
+            <button class="w-100 btn btn-lg btn-primary " id="register" type="submit">Sign UP</button>
+            <br>
+            <hr>
+            <br>
+            <p class=" text-white px-5">By clicking Sign up, you agree to the terms of use.</p>
+
+
+
+
+        </form>
+    </main>
+
+
+
+
+
+</body>
+
+</html>
